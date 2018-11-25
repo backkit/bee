@@ -1,0 +1,26 @@
+{
+  "name": "backkit-bee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node ./configure.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backkit/bee.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/backkit/bee/issues"
+  },
+  "homepage": "https://github.com/backkit/bee#readme",
+  "dependencies": {
+    "bee-queue": "^1.2.2",
+    "inquirer": "^6.2.0",
+    "js-beautify": "^1.8.8",
+    "js-yaml": "^3.12.0"
+  }
+}
