@@ -48,8 +48,8 @@ const generate = (serviceName, moduleName, config) => {
     for (let queueName in config) {
       fs.writeFileSync(`${resourceDir}/${queueName}.js`,
         beautifyjs(`
-        module.exports = ({bee}) => bee.worker('${queueName}', (job) => {
-          return Promise.resolve(true);
+        module.exports = ({bee}) => bee.worker('${queueName}', async (job) => {
+          return await true;
         });`,
         { indent_size: 2 }));
     }
