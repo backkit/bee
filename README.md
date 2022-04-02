@@ -5,7 +5,7 @@ Backkit service for [beequeue](https://github.com/bee-queue/bee-queue), redis ba
 ## install
 
 ```bash
-npm install --save git+https://github.com/backkit/bee.git
+npm install --save @backkit/bee
 ```
 
 ## configuration example

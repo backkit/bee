@@ -23,7 +23,7 @@
     "bee-queue": "^1.2.2",
     "inquirer": "^6.2.0",
     "js-beautify": "^1.8.8",
-    "js-yaml": "^3.12.0"
+    "js-yaml": "^3.14.1"
   },
   "publishConfig": {
     "access": "public"
