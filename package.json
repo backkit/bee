@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/backkit/bee#readme",
   "dependencies": {
+    "@backkit/autoconf": "^0.1.1",
     "bee-queue": "^1.2.2",
     "inquirer": "^6.2.0",
     "js-beautify": "^1.8.8",
